@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("Resimler/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px auto;
+}
+
+header div.title h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #003333;
+    text-shadow: 0 0 5px ##FFFFFF;
+}
+
+header div.title h1 a {
+    color: #003333;
+}
+
+header nav a {
+    text-decoration: none;
+    color: 	#000080;
+    transition: 300ms all;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    display: inline-block;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(213, 223, 226);
+}
+
+header div.description {
+    color: #000033;
+}
+
+main {
+    padding: 0 auto;
+}
